@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: min(100% - 1rem, 1200px);
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+.container-vh{
+    height: 100vh;
+}
+.container-2{
+    width: min(100% - 1rem, 850px);
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    gap: 20px;
+}
+
+.title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+.input input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+
+.input span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.7;
+}
+
+.btn {
+    padding: 20px;
+    color: #fff;
+    background-color: #030092;
+    border-radius: 30px;
+    text-decoration: none;
+    max-width: 400px;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #030092;
+    
+}
+.create {
+    padding: 10px 20px;
+    width: 220px;
+}
+.btn-text{}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 32px 28px;
+    border-radius: 30px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+.number {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    
+}
+.text-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+
+}
+.text {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+
+}
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #2e2e2e;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: rgb(40, 40, 40);
+}
